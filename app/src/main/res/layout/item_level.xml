@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/_20sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/textView_progress"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="@id/indicator_progress"
+            app:layout_constraintEnd_toEndOf="@id/indicator_progress"
+            app:layout_constraintStart_toStartOf="@id/indicator_progress"
+            app:layout_constraintTop_toTopOf="@id/indicator_progress" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/indicator_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:progress="100"
+            app:indicatorSize="@dimen/_40sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textView_level"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:gravity="center_vertical"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/indicator_progress" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

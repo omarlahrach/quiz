@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Quizz</string>
+
+    <string name="level1_title">Débutant</string>
+    <string name="level2_title">Compétent</string>
+    <string name="level3_title">Avancé</string>
+    <string name="level4_title">Expert</string>
+
+    <string name="checking_connection">Vérification de la connexion…</string>
+    <string name="offline_message">Aucune connexion</string>
+    <string name="online_message">Connexion établie</string>
+    <string name="timeout_message">Connexion lente</string>
+    <string name="quit_level">Voulez-vous vraiment terminer à ce niveau là?</string>
+    <string name="quit_game">Est-ce vous voulez quitter le jeu?</string>
+
+    <string name="points_progress_text_landscape">%1$d</string>
+    <string name="points_progress_text_portrait">%1$d/%2$d points</string>
+
+    <string name="correct_answer_message">C\'est facile</string>
+    <string name="incorrect_answer_message">Un peu difficile n\'est-ce pas ?</string>
+    <string name="correct_answer_title">Correcte</string>
+    <string name="incorrect_answer_title">Incorrecte</string>
+    <string name="correct_answer_btn_text">Oui</string>
+    <string name="incorrect_answer_btn_text">Oui</string>
+
+    <string name="level_title">Niveau %1$d</string>
+    <string name="question_progress_text">Question %1$d sur %2$d</string>
+    <string name="points_progress_text">%1$d</string>
+    <string name="levels_title">Sélectionnez un niveau</string>
+    <string name="categories_title">Sélectionnez une catégorie</string>
+
+    <string name="button_next">Suivante</string>
+    <string name="answer_image">Image de la réponse</string>
+    <string name="emoji">emoji</string>
+
+    <string name="one_more_attempt">Encore une tentative</string>
+    <string name="two_more_attempts">Deux autres tentatives</string>
+    <string name="three_more_attempts">Vous avez 3 tentatives</string>
+    <string name="no_more_attempts">Faute par -10 points</string>
+
+    <string name="yes">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="home_button">home button</string>
+    <string name="heart_icon">heart icon</string>
+</resources>
